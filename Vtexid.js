@@ -28,7 +28,7 @@ class VtexId {
 				accountName: this.account
 			}
 		};
-		this.storeAuthCookiePath = path.resolve(PROJECTDIR, 'jussitb.auth.json');
+		this.storeAuthCookiePath = path.resolve(PROJECTDIR, 'vtexlegacytb.auth.json');
 	};
 
 	setAccount(account) {

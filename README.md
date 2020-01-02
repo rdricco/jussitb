@@ -1,8 +1,8 @@
-# jussitb
+# vtexlegacytb
 
-![npm](https://img.shields.io/npm/dt/jussitb.svg)
+![npm](https://img.shields.io/npm/dt/vtexlegacytb.svg)
 
-[![NPM](https://nodei.co/npm/jussitb.png)](https://nodei.co/npm/jussitb/)
+[![NPM](https://nodei.co/npm/vtexlegacytb.png)](https://nodei.co/npm/vtexlegacytb/)
 
 CLI Utils for:
 
@@ -16,17 +16,17 @@ CLI Utils for:
 
 ```bash
 
-$ npm install -g jussitb
+$ npm install -g vtexlegacytb
 
 ```
 
-## jussitb global usage
+## vtexlegacytb global usage
 
 
 
 ```bash
 
-$ jussitb deploy
+$ vtexlegacytb deploy
 
 ```
 
@@ -36,15 +36,15 @@ Provide your email and account name to login, after wait the upload processes.
 
 
 
-## jussitb.lock.json
+## vtexlegacytb.lock.json
 
-The process will generate a jussitb.lock.json file in root path of your project.
+The process will generate a vtexlegacytb.lock.json file in root path of your project.
 
 This file is used to cache files and prevent upload files with same content, we recomend to not delete or ignore this file.
 
-## jussitb.auth.json
+## vtexlegacytb.auth.json
 
-The process will generate a jussitb.auth.json file in root path of your project.
+The process will generate a vtexlegacytb.auth.json file in root path of your project.
 
 This file is used to cache your auth login cookie, we recomend to ignore this file in .gitignore.
 
@@ -59,7 +59,7 @@ Other utils commands:
 
 ```bash
 
-$ jussitb -h
+$ vtexlegacytb -h
 
 ```
 ___
@@ -68,7 +68,7 @@ ___
 
 ```bash
 
-$ jussitb deploy --account <accountName> --email <email>
+$ vtexlegacytb deploy --account <accountName> --email <email>
 
 ```
 ___
@@ -76,7 +76,7 @@ ___
 
 ```bash
 
-$ jussitb deploy --force
+$ vtexlegacytb deploy --force
 
 ```
 ___
@@ -84,7 +84,7 @@ ___
 
 ```bash
 
-$ jussitb html
+$ vtexlegacytb html
 
 ```
 ___
@@ -92,7 +92,7 @@ ___
 
 ```bash
 
-$ jussitb sub
+$ vtexlegacytb sub
 
 ```
 ___
@@ -100,7 +100,7 @@ ___
 
 ```bash
 
-$ jussitb shelf
+$ vtexlegacytb shelf
 
 ```
 ___
@@ -108,22 +108,22 @@ ___
 
 ```bash
 
-$ jussitb assets
+$ vtexlegacytb assets
 
 ```
 
 
-## jussitb project workflow
+## vtexlegacytb project workflow
 
-Run ``jussitb createProject`` to create a new project folder.
-![Create Project](https://github.com/gfpaiva/jussitb/blob/master/templates/demo/createProject.gif?raw=true)
+Run ``vtexlegacytb createProject`` to create a new project folder.
+![Create Project](https://github.com/rdricco/vtexlegacytb/blob/master/templates/demo/createProject.gif?raw=true)
 
 Provide a project name, vtex-account and if you want to sync the vtex registered templates,
 
 ___
 
 After a long winter (installing de dependencies) you will be able to run de project with gulp:
-![Live Reload](https://github.com/gfpaiva/jussitb/blob/master/templates/demo/liveReload.gif?raw=true)
+![Live Reload](https://github.com/rdricco/vtexlegacytb/blob/master/templates/demo/liveReload.gif?raw=true)
 
 With gulp we run a reverse proxy server to css and js local files, so you can edit and see the changes with live reload.
 And you can work with: ES6, ES6 Modules, SCSS, *Nitro* controllers and modules.
@@ -132,7 +132,7 @@ We highly recommend to make this project a github (private or public) repository
 ___
 
 After all work done, you can deploy your store:
-![Deploy Project](https://github.com/gfpaiva/jussitb/blob/master/templates/demo/deploy.gif?raw=true)
+![Deploy Project](https://github.com/rdricco/vtexlegacytb/blob/master/templates/demo/deploy.gif?raw=true)
 
 With ``npm run deploy`` the project will be compiled and deployed in the specific vtex account.
 
