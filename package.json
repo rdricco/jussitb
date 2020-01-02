@@ -1,27 +1,27 @@
 {
-  "name": "jussitb",
+  "name": "vtexlegacytb",
   "version": "1.5.0",
   "description": "CLI VTEX utils",
-  "main": "jussitb.js",
+  "main": "vtexlegacytb.js",
   "bin": {
-    "jussitb": "jussitb.js"
+    "vtexlegacytb": "vtexlegacytb.js"
   },
   "author": {
-    "name": "Guilherme Paiva",
-    "url": "https://guilherme.dev/",
-    "email": "gf.paiva@yahoo.com.br"
+    "name": "Renato Ricco",
+    "url": "https://renatoricco.com/",
+    "email": "contact@renatoricco.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gfpaiva/jussitb.git"
+    "url": "git+https://github.com/rdricco/vtexlegacytb.git"
   },
   "bugs": {
-    "url": "https://github.com/gfpaiva/jussitb/issues"
+    "url": "https://github.com/rdricco/vtexlegacytb/issues"
   },
-  "homepage": "https://github.com/gfpaiva/jussitb/blob/master/README.md",
+  "homepage": "https://github.com/rdricco/vtexlegacytb/blob/master/README.md",
   "keywords": [
-    "jussitb",
-    "jussi",
+    "vtexlegacy",
+    "vtex",
     "cli",
     "deploy"
   ],
